@@ -1,14 +1,15 @@
 namespace my.bookshop;
 
 entity Books {
-  key ID    : Integer;
-      title : String;
-      stock : Integer;
+  key ID       : Integer;
+      title    : String;
+      stock    : Integer;
+      location : Association to Location;
 }
 
-entity Place {
-  key placeID : Integer;
-      floor   : Integer;
-      roomNo  : Integer;
-      rackNo  : Integer;
+entity Location {
+  key locationId : Integer;
+      floor      : Integer;
+      blockNo    : Integer;
+      rackNo     : Integer;
 }

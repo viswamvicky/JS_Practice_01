@@ -1,3 +1,6 @@
-ID;title;stock
-1;Wuthering Heights;100
-2;Jane Eyre;500
+ID,title,stock,location_locationId
+1, Blue Pen, 100, A101
+2, Red Pen, 150, B202
+3, Black Pen, 200, C303
+4, Pencil, 300, D404
+5, Eraser, 250, E505
