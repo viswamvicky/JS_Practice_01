@@ -4,7 +4,12 @@
 //     }
 //     addition (12,20);
 // Method-2
-let addition = (a,b) => {
-    console.log(a+b);
+// let addition = (a,b) => {
+//     console.log(a+b);
+// }
+// addition(12,20);
+// Method-3
+let mul = (a,b) => {
+    console.log(a*b);
 }
-addition(12,20);
+mul(12,20);
